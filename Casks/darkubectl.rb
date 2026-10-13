@@ -8,25 +8,25 @@ cask "darkubectl" do
     end
   end
 
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
     on_arm do
-      sha256 "46ffc2360e047c750cbf58dd705d73965e80024aa147c79fe087537936a7c0c7"
+      sha256 "c269d51ee9598b8147a48a2854efa93470a5f2cd5cdbd734e15418a16da732c3"
       url "https://github.com/rahacloud/darkubectl/releases/download/v#{version}/darkubectl_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "858a95a540067781bd12400c973b01c734445616b7b380609274ea84625518ec"
+      sha256 "f4d031b6252e663768ff04e484afc3a9c146372d43f90fff2e1333a455ffd00a"
       url "https://github.com/rahacloud/darkubectl/releases/download/v#{version}/darkubectl_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "1219ada2a078a9bcc695268be915bfdbd9d1a8df17b4412e9529644dd87a4dcc"
+      sha256 "6e9a1dc06af59297d003b141237099b1191aa27af0a5a1dde3442520d8912957"
       url "https://github.com/rahacloud/darkubectl/releases/download/v#{version}/darkubectl_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "39ab79d92a676d853e6e06693b824a391e6591407de58c88528a013f49dd1295"
+      sha256 "3c3ab79f8d2062436ebdad689895ddbfdf745b1a6e2e3d37d34e0e935cddd4c2"
       url "https://github.com/rahacloud/darkubectl/releases/download/v#{version}/darkubectl_#{version}_linux_amd64.tar.gz"
     end
   end
